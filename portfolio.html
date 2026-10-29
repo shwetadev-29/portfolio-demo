@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shweta Maurya's portfolio, skills, projects, and education.">
+    <title>Shweta Maurya | Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    
+</head>
+<body>
+    <header class="site-header" id="top">
+        <a class="brand" href="#top">Shweta Maurya</a>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" aria-labelledby="intro-title">
+            <div>
+                <p class="eyebrow">BTech Student · Web Development</p>
+                <h1 id="intro-title">Shweta Maurya</h1>
+                <p class="hero-copy">A second-year BTech student learning web development and building useful projects along the way.</p>
+                <a class="button-link" href="#projects">View my projects</a>
+            </div>
+            <!-- <img class="hero-image" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Laptop displaying code on a desk" width="900" height="675"> -->
+        </section>
+
+        <section id="about" aria-labelledby="about-title">
+            <h2 id="about-title">About me</h2>
+            <div class="about-box">
+                <p>I'm Shweta, a BTech student with an interest in web development. I enjoy learning new skills, solving problems, and working with others to create useful things.</p>
+            </div>
+        </section>
+
+        <section id="skills" aria-labelledby="skills-title">
+            <h2 id="skills-title">Skills</h2>
+            <ul class="tag-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Problem solving</li>
+                <li>Teamwork</li>
+            </ul>
+        </section>
+
+        <section id="hobbies" aria-labelledby="hobbies-title">
+            <h2 id="hobbies-title">Hobbies</h2>
+            <ul class="tag-list">
+                <li>Coding</li>
+                <li>Reading</li>
+                <li>Travelling</li>
+            </ul>
+        </section>
+
+        <section id="projects" aria-labelledby="projects-title">
+            <h2 id="projects-title">Projects</h2>
+            <div class="project-list">
+                <article class="project">
+                    <h3>Contact Template with CRUD</h3>
+                    <p>A contact management template concept for creating, viewing, updating, and deleting contact records.</p>
+                </article>
+                <article class="project">
+                    <h3>Quirex</h3>
+                    <p>A property builder project concept for helping organize property and building information.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="education" aria-labelledby="education-title">
+            <h2 id="education-title">Education</h2>
+            <div class="education">
+                <h3>Bachelor of Technology (BTech)</h3>
+                <p>Second-year student</p>
+                <p>Currently exploring web development and programming.</p>
+            </div>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-title">
+            <h2 id="contact-title">Contact me</h2>
+            <p>Have a question or want to talk about a project? Send me a message.</p>
+            <form action="#contact" method="get">
+                <div class="form-field">
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" autocomplete="name" required>
+                </div>
+                <div class="form-field">
+                    <label for="age">Age</label>
+                    <input id="age" name="age" type="number" min="1" max="120">
+                </div>
+                <div class="form-field">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" autocomplete="email" required>
+                </div>
+                <div class="form-field">
+                    <label for="phone">Phone number</label>
+                    <input id="phone" name="phone" type="tel" autocomplete="tel">
+                </div>
+                <div class="form-field">
+                    <label for="interest">Area of interest</label>
+                    <select id="interest" name="interest">
+                        <option value="">Choose one</option>
+                        <option value="web-development">Web development</option>
+                        <option value="projects">Projects</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-field">
+                    <label for="contact-time">Best time to contact</label>
+                    <select id="contact-time" name="contact-time">
+                        <option value="">Choose one</option>
+                        <option value="morning">Morning</option>
+                        <option value="afternoon">Afternoon</option>
+                        <option value="evening">Evening</option>
+                    </select>
+                </div>
+                <div class="form-field full-width">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <div class="form-actions">
+                    <button type="submit">Send message</button>
+                    <button type="reset">Clear form</button>
+                </div>
+                <p class="form-note">This form is a template and needs a form service or server to deliver messages.</p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Shweta Maurya HELLO</p>
+        <!-- <p> Lorem ipsum dolor,Hello who are you sit amet consectetur adipisicing elit. Quae fugit suscipit velit, reiciendis, ipsum eaque illum delectus animi deserunt deleniti repellendus tempora autem excepturi voluptas nesciunt et nostrum, placeat assumenda. </p> -->
+        <a href="#top">Back to top</a>
+    </footer>
+</body>
+</html>
